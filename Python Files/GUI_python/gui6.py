@@ -1,0 +1,20 @@
+#Set Components
+
+from tkinter import *
+root=Tk()
+root.title("Set components")
+root.geometry('500x500')
+root.wm_minsize(width=300,height=300)
+b1=Button(root,text='One')
+l1=Label(root,text="Two")
+e1=Entry(root)
+cb1=Checkbutton(root,text="Four")
+rb1=Radiobutton(root,text="Five")
+t1=Text(root)
+b1.pack()
+l1.pack()
+e1.pack()
+cb1.pack()
+rb1.pack()
+t1.pack()
+root.mainloop()
